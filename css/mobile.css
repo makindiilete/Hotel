@@ -1,0 +1,61 @@
+/*When it comes to making the site responsive using this tablet and mobile css, u should not copy all the css from style.css and paste to edit, only modify the ones u need to change and leave the rest inside the style.css to affect all screens*/
+/*NAV BAR*/
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: 1px dotted #444;
+}
+
+/*SHOW CASE*/
+#showcase {
+  height: 100%;
+}
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+/*HOME INFO*/
+#home-info {
+  height: 550px;
+}
+#home-info .info-img {
+  display: none;
+}
+#home-info .info-content {
+  width: 100%;
+  text-align: center;
+}
+
+/*FEATURES*/
+.box {
+  float: none;
+  width: 100%;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*----------------------------------------------------ABOUT PAGE---------------------------------------------------*/
+/*------------------ABOUT INFO SECTION ID CSS-----------------------------------------------*/
+#about-info .info-right,
+#about-info .info-left {
+  float: none;
+  width: 100%;
+}
+#about-info .info-right {
+  margin-top: 30px;
+}
+.l-heading {
+  text-align: center;
+}
+
+/*CONTACT PAGE*/
+#contact-info .box {
+  border-bottom: #444 dotted 1px;
+}
