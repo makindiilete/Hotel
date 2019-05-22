@@ -1,2 +1,2 @@
 # Hotel
-A UI project based on Html5 and css
+A website designed with Html5 and CSS 3
